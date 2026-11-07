@@ -1,0 +1,13 @@
+# Real configs and anything customer-specific stay out of git
+config/smb.env
+customers/*
+!customers/_template/
+
+# Credentials
+*.json
+!**/*.example.json
+secrets/
+.gam/
+
+# OS / editor
+.DS_Store
